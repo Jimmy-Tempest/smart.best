@@ -4,12 +4,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <title>Andriod App</title>
+    <link type="text/css" rel="stylesheet" href="../style.css">
+    <title>LDA</title>
 </head>
 
 <body>
-    <a href="../index.html" style="position: absolute; text-align: center; ">Back</a>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>About AI</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="./p1.html">What is AI?</a></li>
+                        <li><a href="./p2.html">What is ML?</a></li>
+                        <li><a href="./p3.html">What is data science?</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="#"><i class="fa fa-clone" aria-hidden="true"></i>Pre-Processing</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li class="hover-me"><a href="./p4.html">Data Processing method <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="./p5.html">Standardize</a></li>
+                                    <li><a href="./p6.html">Binarize</a></li>
+                                    <li><a href="./p7.html">Normalize</a></li>
+                                    <li><a href="./p8.html">Rescale-Data</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="">Feature Selection <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="./p9.html">SelectKBest</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i>ML Algorithm</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="./p10.html">Linear Discriminant Analysis</a></li>
+                        <li><a href="./p11.html">Linear Model</a></li>
+                        <li><a href="./p12.html">Support Vector Machine</a></li>
+                        <li><a href="./p13.html">K Nearest Neighbors</a></li>
+                        <li><a href="./p14.html">Naive bayes</a></li>
+                        <li><a href="./p15.html">Decision Tree</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="body">
+        <h2>Linear discriminant analysis</h2>
+        <p>Linear discriminant analysis (LDA), normal discriminant analysis (NDA), or discriminant function analysis is
+            <br>
+            a generalization of Fisher's linear discriminant, a method used in statistics, pattern recognition, and <br>
+            machine learning to find a linear combination of features that characterizes or separates two or more <br>
+            classes of objects or events. The resulting combination may be used as a linear classifier, or, more <br>
+            commonly, for dimensionality reduction before later classification. <br><br>
+
+            LDA is closely related to analysis of variance (ANOVA) and regression analysis, which also attempt to <br>
+            express one dependent variable as a linear combination of other features or measurements.[1][2] However,
+            <br>
+            ANOVA uses categorical independent variables and a continuous dependent variable, whereas discriminant <br>
+            analysis has continuous independent variables and a categorical dependent variable (i.e. the class <br>
+            label).[3] Logistic regression and probit regression are more similar to LDA than ANOVA is, as they also
+            <br>
+            explain a categorical variable by the values of continuous independent variables. These other methods are
+            <br>
+            preferable in applications where it is not reasonable to assume that the independent variables are normally
+            <br>
+            distributed, which is a fundamental assumption of the LDA method. <br><br>
+
+            LDA is also closely related to principal component analysis (PCA) and factor analysis in that they both look
+            <br>
+            for linear combinations of variables which best explain the data.[4] LDA explicitly attempts to model the
+            <br>
+            difference between the classes of data. PCA, in contrast, does not take into account any difference in <br>
+            class, and factor analysis builds the feature combinations based on differences rather than similarities.
+            <br>
+            Discriminant analysis is also different from factor analysis in that it is not an interdependence technique:
+            <br>
+            a distinction between independent variables and dependent variables (also called criterion variables) must
+            <br>
+            be made. <br><br>
+
+            LDA works when the measurements made on independent variables for each observation are continuous <br>
+            quantities. When dealing with categorical independent variables, the equivalent technique is discriminant
+            <br>
+            correspondence analysis.[5][6] <br><br>
+
+            Discriminant analysis is used when groups are known a priori (unlike in cluster analysis). Each case must
+            <br>
+            have a score on one or more quantitative predictor measures, and a score on a group measure.[7] In simple
+            <br>
+            terms, discriminant function analysis is classification - the act of distributing things into groups, <br>
+            classes or categories of the same type. <br>
+
+
+        </p><br>
+        <img src="https://d2o2utebsixu4k.cloudfront.net/media/images/72d27592-6ac1-4ce1-9b1d-f266dd07d018.jpg" alt=""
+            width="500px">
+    </div>
 </body>
 
 </html>
