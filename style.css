@@ -12,7 +12,7 @@ body{
 /*	font-family: san Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"*/
 }
 .menu-bar{
-	background: #C87172;
+	background: #3876e9;
 	text-align: center;
 }
 
@@ -23,7 +23,7 @@ body{
 }
 
 .menu-bar ul li{
-	width: 120px;
+	width: auto;
 	margin: 15px;
 	padding: 15px;
 }
@@ -33,7 +33,7 @@ body{
 	color: #fff;
 }
 .active, .menu-bar ul li:hover{
-	background: #84D1C9;
+	background: #849fd1;
 	border-radius: 3px;
 }
 
@@ -48,7 +48,7 @@ body{
 .menu-bar ul li:hover .sub-menu-1{
 	display: block;
 	position: absolute;
-	background: #934647;
+	background: #1b55c0ad;
 	margin-top: 15px;
 	margin-left: -15px;
 }
@@ -72,7 +72,7 @@ body{
 }
 
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
-	color: #3577D1
+	color: #c79e2d
 }
 
 .fa-angle-right{
@@ -88,5 +88,5 @@ body{
 	display: block;
 	margin-top: -40px;
 	margin-left: 140px;
-	background: #934647
+	background: #6dade9c9
 }
