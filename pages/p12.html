@@ -4,12 +4,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <title>Ionic App</title>
+    <link type="text/css" rel="stylesheet" href="../style.css">
+    <title>Support vector machine</title>
 </head>
 
 <body>
-    <a href="../index.html" style="position: absolute; text-align: center; ">Back</a>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>About AI</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="./p1.html">What is AI?</a></li>
+                        <li><a href="./p2.html">What is ML?</a></li>
+                        <li><a href="./p3.html">What is data science?</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="#"><i class="fa fa-clone" aria-hidden="true"></i>Pre-Processing</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li class="hover-me"><a href="./p4.html">Data Processing method <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="./p5.html">Standardize</a></li>
+                                    <li><a href="./p6.html">Binarize</a></li>
+                                    <li><a href="./p7.html">Normalize</a></li>
+                                    <li><a href="./p8.html">Rescale-Data</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="">Feature Selection <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="./p9.html">SelectKBest</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i>ML Algorithm</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="./p10.html">Linear Discriminant Analysis</a></li>
+                        <li><a href="./p11.html">Linear Model</a></li>
+                        <li><a href="./p12.html">Support Vector Machine</a></li>
+                        <li><a href="./p13.html">K Nearest Neighbors</a></li>
+                        <li><a href="./p14.html">Naive bayes</a></li>
+                        <li><a href="./p15.html">Decision Tree</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="body">
+        <h2>Support vector machine</h2>
+        <p>In machine learning, support-vector machines (SVMs, also support-vector networks[1]) are supervised learning
+            <br>
+            models with associated learning algorithms that analyze data used for classification and regression <br>
+            analysis. Developed at AT&T Bell Laboratories by Vapnik with colleagues (Boser et al., 1992, Guyon et al.,
+            <br>
+            1993, Vapnik et al., 1997), it presents one of the most robust prediction methods, based on the statistical
+            <br>
+            learning framework or VC theory proposed by Vapnik and Chervonenkis (1974) and Vapnik (1982, 1995). Given a
+            <br>
+            set of training examples, each marked as belonging to one or the other of two categories, an SVM training
+            <br>
+            algorithm builds a model that assigns new examples to one category or the other, making it a <br>
+            non-probabilistic binary linear classifier (although methods such as Platt scaling exist to use SVM in a
+            <br>
+            probabilistic classification setting). An SVM model is a representation of the examples as points in space,
+            <br>
+            mapped so that the examples of the separate categories are divided by a clear gap that is as wide as <br>
+            possible. New examples are then mapped into that same space and predicted to belong to a category based on
+            <br>
+            the side of the gap on which they fall. <br><br>
+
+            In addition to performing linear classification, SVMs can efficiently perform a non-linear classification
+            <br>
+            using what is called the kernel trick, implicitly mapping their inputs into high-dimensional feature spaces.
+            <br><br>
+
+            When data are unlabelled, supervised learning is not possible, and an unsupervised learning approach is <br>
+            required, which attempts to find natural clustering of the data to groups, and then map new data to these
+            <br>
+            formed groups. The support-vector clustering[2] algorithm, created by Hava Siegelmann and Vladimir Vapnik,
+            <br>
+            applies the statistics of support vectors, developed in the support vector machines algorithm, to categorize
+            <br>
+            unlabeled data, and is one of the most widely used clustering algorithms in industrial applications. <br>
+        </p><br>
+        <img src="data:image/png;base64,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"
+            alt="" width="500px">
+    </div>
 </body>
 
 </html>
