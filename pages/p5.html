@@ -4,12 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="style.css">
-    <title>Marketing</title>
+    <link type="text/css" rel="stylesheet" href="../style.css">
+    <title>Standardization</title>
 </head>
 
 <body>
-    <a href="../index.html" style="position: absolute; text-align: center; ">Back</a>
+    <div class="menu-bar">
+        <ul>
+            <li class="active"><a href="../index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i>About AI</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="./p1.html">What is AI?</a></li>
+                        <li><a href="./p2.html">What is ML?</a></li>
+                        <li><a href="./p3.html">What is data science?</a></li>
+                    </ul>
+                </div>
+            </li>
+
+            <li><a href="#"><i class="fa fa-clone" aria-hidden="true"></i>Pre-Processing</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li class="hover-me"><a href="./p4.html">Data Processing method <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="./p5.html">Standardize</a></li>
+                                    <li><a href="./p6.html">Binarize</a></li>
+                                    <li><a href="./p7.html">Normalize</a></li>
+                                    <li><a href="./p8.html">Rescale-Data</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="hover-me"><a href="">Feature Selection <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                            <div class="sub-menu-2">
+                                <ul>
+                                    <li><a href="./p9.html">SelectKBest</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i>ML Algorithm</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="./p10">Linear Discriminant Analysis</a></li>
+                        <li><a href="./p11">Linear Model</a></li>
+                        <li><a href="./p12">Support Vector Machine</a></li>
+                        <li><a href="./p13">K Nearest Neighbors</a></li>
+                        <li><a href="./p14">Naive bayes</a></li>
+                        <li><a href="./p15">Decision Tree</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="body">
+        <h2>ML | Understanding Data Processing</h2>
+        <p>Data standardization is the process of rescaling one or more attributes so that they have a mean value of 0
+            <br>
+            and a standard deviation of 1. <br><br>
+
+            Standardization assumes that your data has a Gaussian (bell curve) distribution. This does not strictly have
+            <br>
+            to be true, but the technique is more effective if your attribute distribution is Gaussian. <br><br>
+
+            You can standardize all of the attributes in your dataset with Weka by choosing the Standardize filter and
+            <br>
+            applying it your <dataset class="br"></dataset>
+        </p><br>
+        <img src="https://miro.medium.com/max/3840/1*DHI4f8V5eC5KXMsXhqdinQ.jpeg" alt="" width="500px">
+    </div>
 </body>
 
 </html>
